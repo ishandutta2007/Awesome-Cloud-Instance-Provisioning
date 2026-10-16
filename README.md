@@ -1,46 +1,47 @@
-# Awesome-Cloud-Instance-Provisioning
+<div align="center">
 
-## Top Cloud Instance Provisioning Ecosystem
+<img src="./assets/banner.svg" alt="Awesome Cloud Instance Provisioning Banner" width="100%" />
 
+# ⚡ Awesome Cloud Instance Provisioning ☁️
 
+**A Curated Directory of SaaS Platforms & Open-Source Projects for Cloud Bootstrapping, Infrastructure as Code (IaC), and Automated Configuration Management**
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Cloud-Instance-Provisioning/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Cloud-Instance-Provisioning?style=social&color=white" alt="Repo Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Cloud-Instance-Provisioning/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Cloud-Instance-Provisioning?style=social&color=white" alt="Repo Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Cloud-Instance-Provisioning/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License: MIT" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Cloud-Instance-Provisioning"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-*Focused on Bootstrapping, Infrastructure as Code & Configuration Management*  
+**Keywords:** `cloud-provisioning` • `infrastructure-as-code` • `iac` • `cloud-init` • `terraform` • `opentofu` • `ansible` • `packer` • `cloud-bootstrap` • `devops` • `platform-engineering` • `immutable-infrastructure` • `configuration-management`
 
-**Last updated: October 2026**
+---
+</div>
 
+> 🚀 **Welcome to the definitive cloud instance provisioning landscape!** This guide tracks the premier **SaaS platforms** and **open-source tooling** enabling DevOps, platform, and site reliability engineers (SREs) to automate the full lifecycle of cloud virtual machines, bare metal instances, and microVMs—from first-boot initialization and disk partitioning to full declarative infrastructure rollout and configuration management.
 
+---
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Cloud Instance Provisioning**. These tools enable organizations to automate the creation and configuration of cloud instances—from first-boot initialization and disk manipulation to full infrastructure provisioning and in-VM software management.
+## 📑 Table of Contents
 
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [💼 SaaS & Hosted Platforms](#-saas--hosted-platforms)
+- [🛠️ Open-Source GitHub Projects](#️-open-source-github-projects)
+- [🏗️ Recommended Architecture Patterns](#️-recommended-architecture-patterns)
+- [📈 Star History](#-star-history)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⚠️ Disclaimer](#️-disclaimer)
 
+---
 
-**Examples** include Ignition, cloud-init, CoreOS Installer, Terraform, Packer, Ansible, Chef, Puppet, SaltStack, and CloudFormation (the category leaders).
-
-
-
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, bootstrapping, and configuration management—ideal for platform engineers, DevOps teams, and organizations seeking transparent, vendor-independent provisioning infrastructure.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-## Sector Overview & Market Dynamics
+## 📊 Sector Overview & Market Dynamics
 
 The global Infrastructure as Code (IaC) and cloud instance provisioning market is estimated at **$1.3B–$1.6B in 2025–2026** (scaling past **$6B+ by the early 2030s** at a ~20–25% CAGR), or upwards of **$39B+** when encompassing adjacent cloud automation and provisioning frameworks. The sector remains **moderately fragmented**—while hyperscaler-native tools dominate single-cloud footprints, multi-cloud enterprise mandates and ecosystem shifts (such as HashiCorp's BSL licensing change and the emergence of OpenTofu) have spurred healthy competition across independent orchestration, drift detection, and multi-IaC platforms rather than a single winner-take-all monopoly.
 
-## SaaS/Hosted Platforms
+## 💼 SaaS & Hosted Platforms
 
 | Platform | Company Valuation / Revenue (Size) | Starting Price (Paid) | Free Tier / Trial Limits | Description |
 | :--- | :--- | :--- | :--- | :--- |
@@ -51,138 +52,156 @@ The global Infrastructure as Code (IaC) and cloud instance provisioning market i
 | **[Spacelift](https://spacelift.io/)** (Spacelift) | **~$73.6M Total Funding** (~$15M–$20M ARR) | **$20,000 / year** (~$1,667 / month for Starter+ tier with 1 private worker and unlimited users) | **Forever Free for up to 2 users**, 1 concurrent run (public worker), unlimited stacks, and full IaC support (Terraform, OpenTofu, Pulumi, CloudFormation, Ansible); also offers a **14-day free trial** of paid tiers (no credit card required) | Sophisticated multi-IaC orchestration platform featuring OPA policy-as-code, stack dependencies, drift detection, and AI assistant. |
 | **[env0](https://www.envzero.com/)** (env0) | **~$42M Total Funding** (~$6M–$9M ARR) | **~$1,500 / month** ($18,000 / year base for Cloud Navigator on AWS Marketplace; custom quotes per active env / apply) | **Forever Free up to 250 runs/month**, up to **30 active environments**, unlimited users, 1 concurrent deployment, and 1 self-hosted agent | Collaborative IaC automation and management platform supporting Terraform, Terragrunt, OpenTofu, and Pulumi with built-in cloud cost tracking. |
 
+---
 
+## 🛠️ Open-Source GitHub Projects
 
-## Open-Source GitHub Projects
+Curated list of leading open-source repositories for cloud instance bootstrapping, infrastructure automation, hypervisors, and configuration management. Sorted in **descending order by GitHub star count**.
 
+1. **[Ansible](https://github.com/ansible/ansible)** [![Stars](https://img.shields.io/github/stars/ansible/ansible?style=social&color=white)](https://github.com/ansible/ansible/stargazers)  
+   **The most widely adopted open-source configuration management and automation platform** (GPL-3.0). Features an agentless architecture over SSH and WinRM. Ideal for post-boot software deployment, orchestration, role-based workflows, and application lifecycle automation.
 
+2. **[LocalStack](https://github.com/localstack/localstack)** [![Stars](https://img.shields.io/github/stars/localstack/localstack?style=social&color=white)](https://github.com/localstack/localstack/stargazers)  
+   **A fully functional local cloud stack for testing cloud infrastructure and instance provisioning** (Apache-2.0 / Commercial). Enables developers to mock and provision AWS cloud instances, IAM, S3, and CloudFormation locally without incurring cloud costs.
 
-- **[cloud-init](https://github.com/canonical/cloud-init)**  
+3. **[Terraform](https://github.com/hashicorp/terraform)** [![Stars](https://img.shields.io/github/stars/hashicorp/terraform?style=social&color=white)](https://github.com/hashicorp/terraform/stargazers)  
+   **Industry-standard declarative Infrastructure as Code engine** (BSL-1.1). Manages cloud instances, networks, and services across 3,000+ providers using HashiCorp Configuration Language (HCL).
 
-  **The de facto multi-distribution package that handles early initialization of a cloud instance** (GPLv3/Apache-2.0) . **The industry standard for cross-platform cloud instance initialization**—supported across all major public cloud providers, private cloud provisioning systems, and bare-metal installations . **During boot, cloud-init identifies the cloud it is running on and initializes the system accordingly**—networking, storage, SSH keys, packages, and various other system aspects are automatically configured during first boot . **The necessary glue between launching a cloud instance and connecting to it** .
+4. **[Firecracker](https://github.com/firecracker-microvm/firecracker)** [![Stars](https://img.shields.io/github/stars/firecracker-microvm/firecracker?style=social&color=white)](https://github.com/firecracker-microvm/firecracker/stargazers)  
+   **Secure and fast microVM virtualization engine for cloud-native serverless and instance provisioning** (Apache-2.0). Developed by AWS to power AWS Lambda and Fargate, launching minimal Linux kernels in under 5 milliseconds.
 
+5. **[OpenTofu](https://github.com/opentofu/opentofu)** [![Stars](https://img.shields.io/github/stars/opentofu/opentofu?style=social&color=white)](https://github.com/opentofu/opentofu/stargazers)  
+   **Truly open-source Terraform fork hosted under the Linux Foundation** (MPL-2.0). Provides a community-governed, drop-in replacement for Terraform with end-to-end state encryption, client-side enhancements, and provider ecosystem parity.
 
+6. **[Vagrant](https://github.com/hashicorp/vagrant)** [![Stars](https://img.shields.io/github/stars/hashicorp/vagrant?style=social&color=white)](https://github.com/hashicorp/vagrant/stargazers)  
+   **Development environment virtualization and local instance automation tool** (BSL-1.1). Automates the creation and configuration of reproducible virtual machine environments across VirtualBox, VMware, AWS, and Hyper-V.
 
-- **[Ignition](https://github.com/coreos/ignition)**  
+7. **[Pulumi](https://github.com/pulumi/pulumi)** [![Stars](https://img.shields.io/github/stars/pulumi/pulumi?style=social&color=white)](https://github.com/pulumi/pulumi/stargazers)  
+   **Cloud-native Infrastructure as Code SDK using general-purpose programming languages** (Apache-2.0). Write TypeScript, Python, Go, C#, or Java to declare cloud VMs, networks, and managed services with strong typing, IDE autocompletion, and native testing frameworks.
 
-  **A provisioning utility designed specifically for container OSs like Flatcar Container Linux** (Apache-2.0) . **Manipulates disks during early boot**—partitioning disks, formatting partitions, writing files (regular files, systemd units, networkd units), and configuring users . **Runs once in the initramfs**—able to repartition disks, format filesystems, create users, and write files all before userspace begins booting . **Uses JSON instead of YAML**—JSON typing eliminates problems like "off" being rewritten as "false" and versioned configuration allows future development without persistent backward compatibility . **No variable substitution**—use systemd's environment variable expansion to insert dynamic data . **The reference implementation for immutable infrastructure bootstrapping** .
+8. **[kOps (Kubernetes Operations)](https://github.com/kubernetes/kops)** [![Stars](https://img.shields.io/github/stars/kubernetes/kops?style=social&color=white)](https://github.com/kubernetes/kops/stargazers)  
+   **Production-grade Kubernetes cloud instance provisioning and cluster lifecycle management** (Apache-2.0). Automatically provisions AWS, GCE, and OpenStack compute instances, load balancers, and systemd bootstrapping manifests.
 
+9. **[Packer](https://github.com/hashicorp/packer)** [![Stars](https://img.shields.io/github/stars/hashicorp/packer?style=social&color=white)](https://github.com/hashicorp/packer/stargazers)  
+   **Automated machine image builder for multi-platform virtual machines** (BSL-1.1). Compiles identical golden AMIs, Azure VHDs, GCP images, and VMware templates from a single declarative template for fast, immutable instance booting.
 
+10. **[SaltStack (Salt)](https://github.com/saltstack/salt)** [![Stars](https://img.shields.io/github/stars/saltstack/salt?style=social&color=white)](https://github.com/saltstack/salt/stargazers)  
+    **High-speed, event-driven remote execution and configuration management engine** (Apache-2.0). Uses ZeroMQ or SSH for sub-second orchestration and includes Salt-Cloud for provisioning instances via Apache Libcloud across 20+ public clouds.
 
-- **[coreos-installer](https://github.com/coreos/coreos-installer)**  
+11. **[Infracost](https://github.com/infracost/infracost)** [![Stars](https://img.shields.io/github/stars/infracost/infracost?style=social&color=white)](https://github.com/infracost/infracost/stargazers)  
+    **Cloud cost estimates for Terraform and OpenTofu in pull requests** (Apache-2.0). Scans IaC templates to provide proactive instance pricing forecasts and prevent costly VM sizing errors before merging.
 
-  **A program to assist with installing Fedora CoreOS (FCOS) and Red Hat Enterprise Linux CoreOS (RHCOS)** (Apache-2.0) . **Installs the operating system to a target disk, optionally customizing it with an Ignition config or first-boot kernel parameters** . **Downloads and verifies OS images for cloud, virtualization, or bare metal** . **Embeds Ignition configs in live ISO or PXE initrd images** . **The standard installer for Fedora/RHEL CoreOS** .
+12. **[Crossplane](https://github.com/crossplane/crossplane)** [![Stars](https://img.shields.io/github/stars/crossplane/crossplane?style=social&color=white)](https://github.com/crossplane/crossplane/stargazers)  
+    **Kubernetes-native cloud control plane framework** (Apache-2.0). Transforms Kubernetes clusters into universal cloud control planes, managing VMs, instances, and DBs across AWS, GCP, and Azure using Custom Resource Definitions (CRDs).
 
+13. **[Terragrunt](https://github.com/gruntwork-io/terragrunt)** [![Stars](https://img.shields.io/github/stars/gruntwork-io/terragrunt?style=social&color=white)](https://github.com/gruntwork-io/terragrunt/stargazers)  
+    **Flexible orchestration wrapper for Terraform and OpenTofu** (MIT). Enforces DRY infrastructure configurations, manages remote state backends across environments, and orchestrates multi-account VM deployments.
 
+14. **[Atlantis](https://github.com/runatlantis/atlantis)** [![Stars](https://img.shields.io/github/stars/runatlantis/atlantis?style=social&color=white)](https://github.com/runatlantis/atlantis/stargazers)  
+    **GitOps workflow pull-request automation for Terraform & OpenTofu** (Apache-2.0). Executes `plan` and `apply` commands directly via PR comments, ensuring infrastructure state consistency and peer code review for instance provisioning.
 
-- **[Terraform](https://github.com/hashicorp/terraform)**  
+15. **[Multipass](https://github.com/canonical/multipass)** [![Stars](https://img.shields.io/github/stars/canonical/multipass)](https://github.com/canonical/multipass/stargazers)  
+    **Fast orchestrator for local cloud-init-enabled Ubuntu VM instances** (GPL-3.0). Lets developers simulate cloud instances locally with a single CLI command, supporting cloud-init metadata for rapid iteration.
 
-  **Industry-standard IaC tool** (MPL-2.0) for provisioning cloud resources via HCL. **The most widely adopted IaC tool** with **62% market share** . **Cloud-agnostic** with hundreds of providers including AWS, Azure, GCP, and SaaS services . **The pragmatic choice for multi-cloud or hybrid strategies**—a single configuration can handle infrastructure across providers . **Trade-off**: State management and collaboration require discipline .
+16. **[Chef Infra](https://github.com/chef/chef)** [![Stars](https://img.shields.io/github/stars/chef/chef?style=social&color=white)](https://github.com/chef/chef/stargazers)  
+    **Declarative configuration management engine** (Apache-2.0). Enforces desired-state system configuration across thousands of cloud nodes using pure Ruby DSL recipes.
 
+17. **[Puppet](https://github.com/puppetlabs/puppet)** [![Stars](https://img.shields.io/github/stars/puppetlabs/puppet?style=social&color=white)](https://github.com/puppetlabs/puppet/stargazers)  
+    **Enterprise-grade declarative configuration management** (Apache-2.0). Provides automated drift correction, centralized reporting, and declarative infrastructure manifests across Windows and Linux cloud fleets.
 
+18. **[Cloud Hypervisor](https://github.com/cloud-hypervisor/cloud-hypervisor)** [![Stars](https://img.shields.io/github/stars/cloud-hypervisor/cloud-hypervisor?style=social&color=white)](https://github.com/cloud-hypervisor/cloud-hypervisor/stargazers)  
+    **Modern, Rust-based Virtual Machine Monitor (VMM) for cloud workloads** (Apache-2.0 / BSD-3-Clause). Focuses exclusively on running modern cloud workloads with low latency, minimal memory footprint, and direct cloud instance isolation.
 
-- **[OpenTofu](https://github.com/opentofu/opentofu)**  
+19. **[cloud-init](https://github.com/canonical/cloud-init)** [![Stars](https://img.shields.io/github/stars/canonical/cloud-init?style=social&color=white)](https://github.com/canonical/cloud-init/stargazers)  
+    **The industry-standard cross-platform cloud instance initialization package** (GPL-3.0 / Apache-2.0). Executes during early VM boot to read provider user-data, set hostnames, write SSH keys, partition storage, and trigger bootstrapping scripts across AWS, Azure, GCP, and OpenStack.
 
-  **Open-source Terraform fork under Linux Foundation** (MPL-2.0). Created after HashiCorp's license change to BSL 1.1. Drop-in replacement with community governance. **12% of practitioners currently use it and 27% plan to use it in the future** .
+20. **[Terraform AWS VPC Module](https://github.com/terraform-aws-modules/terraform-aws-vpc)** [![Stars](https://img.shields.io/github/stars/terraform-aws-modules/terraform-aws-vpc?style=social&color=white)](https://github.com/terraform-aws-modules/terraform-aws-vpc/stargazers)  
+    **The canonical Terraform module for AWS instance network provisioning** (Apache-2.0). Provisions complete VPCs, public/private subnets, NAT gateways, and routing tables required for secure cloud instance deployments.
 
+21. **[OpenStack Nova](https://github.com/openstack/nova)** [![Stars](https://img.shields.io/github/stars/openstack/nova?style=social&color=white)](https://github.com/openstack/nova/stargazers)  
+    **Cloud computing fabric controller for instance lifecycle management** (Apache-2.0). The compute engine powering private and public OpenStack clouds, handling scheduling, virtualization drivers (KVM/QEMU), and instance networking.
 
+22. **[Chef InSpec](https://github.com/inspec/inspec)** [![Stars](https://img.shields.io/github/stars/inspec/inspec?style=social&color=white)](https://github.com/inspec/inspec/stargazers)  
+    **Compliance and security testing framework for cloud infrastructure** (Apache-2.0). Automates security audits and continuous compliance validation across provisioned cloud instances.
 
-- **[Packer](https://github.com/hashicorp/packer)**  
+23. **[Ignition](https://github.com/coreos/ignition)** [![Stars](https://img.shields.io/github/stars/coreos/ignition?style=social&color=white)](https://github.com/coreos/ignition/stargazers)  
+    **Low-level first-boot provisioning utility for container Linux systems** (Apache-2.0). Runs during the initramfs stage to partition disks, format filesystems, create users, and write systemd units for Flatcar, RHCOS, and FCOS.
 
-  **A tool for creating identical machine images for multiple platforms from a single source configuration** (MPL-2.0) . **Packer is lightweight, runs on every major operating system, and is highly performant**—creating machine images for multiple platforms in parallel . **Does not replace configuration management**—Packer is able to use tools like Chef or Puppet to install software onto the image . **A machine image is a single static unit containing a pre-configured OS and installed software** used to quickly create new running machines . **The standard for immutable infrastructure** .
+24. **[Puppet Bolt](https://github.com/puppetlabs/bolt)** [![Stars](https://img.shields.io/github/stars/puppetlabs/bolt?style=social&color=white)](https://github.com/puppetlabs/bolt/stargazers)  
+    **Agentless multi-platform orchestration tool** (Apache-2.0). Connects directly via SSH and WinRM to execute ad-hoc commands, scripts, and tasks across heterogeneous cloud instance fleets.
 
+25. **[Kubernetes Image Builder](https://github.com/kubernetes-sigs/image-builder)** [![Stars](https://img.shields.io/github/stars/kubernetes-sigs/image-builder?style=social&color=white)](https://github.com/kubernetes-sigs/image-builder/stargazers)  
+    **Automated VM image builder for Cluster API providers** (Apache-2.0). Leverages Packer and Ansible to build standardized node images across AWS AMI, Azure VHD, GCP, and vSphere.
 
-
-- **[Ansible](https://github.com/ansible/ansible)**  
-
-  **The most widely adopted open-source configuration management and automation platform** (GPL-3.0) . **Agentless architecture via SSH** . **Supports cloud provisioning, configuration management, application deployment, and orchestration** . **The recommended partner to cloud-init**—use cloud-init for minimal system initialization and Ansible for application-level configuration and deployment . **Role-based organization, inventory management, Vault integration, and comprehensive logging** .
-
-
-
-- **[Chef](https://github.com/chef/chef)**  
-
-  **Open-source infrastructure automation** (Apache-2.0) . **Configuration management with desired-state enforcement** . **Agent-based architecture** with Chef Infra Client checking in to Chef Infra Server.
-
-
-
-- **[Puppet](https://github.com/puppetlabs/puppet)**  
-
-  **Open-source configuration management** (Apache-2.0) . **Desired-state enforcement** with declarative manifests . **The original configuration management tool** for large-scale infrastructure.
-
-
-
-- **[SaltStack](https://github.com/saltstack/salt)**  
-
-  **Open-source event-driven automation** (Apache-2.0) . **Remote execution and configuration management** . **Uses Apache Libcloud for cloud provisioning**—Salt Cloud is a cloud provisioning system that makes extensive use of Libcloud to provision and manage cloud VMs .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **[Terragrunt](https://github.com/gruntwork-io/terragrunt)** — Thin Terraform wrapper (MIT) for DRY configurations and multi-environment orchestration .
-
-- **[Atlantis](https://github.com/runatlantis/atlantis)** — Terraform pull request automation (Apache-2.0) for GitOps workflows.
-
-- **[Pulumi](https://github.com/pulumi/pulumi)** — Open-source IaC SDK (Apache-2.0) using general-purpose programming languages .
-
-- **[Apache Libcloud](https://libcloud.apache.org/)** — Python library for interacting with many cloud providers . **Used by Salt Cloud, mist.io, and others for cloud provisioning** .
-
-- **[Puppet Bolt](https://github.com/puppetlabs/bolt)** — Open-source orchestration tool for on-demand task execution.
-
-- **[Chef InSpec](https://github.com/inspec/inspec)** — Open-source compliance and security testing framework.
-
-- Community **n8n** workflows for provisioning pipeline orchestration and drift alerting.
-
-
-
-**Frameworks for building custom systems**: Combine **Terraform** for infrastructure provisioning with **cloud-init** for minimal system initialization, **Ansible** for application configuration, **Packer** for immutable images, and **Ignition** for container OS bootstrapping—creating a fully self-hosted, enterprise-grade provisioning stack .
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Cloud instance provisioning tools handling infrastructure credentials must follow security best practices and comply with applicable regulations.
-
-- **Open-source provisioning is mature and production-ready.** cloud-init is the industry standard for instance initialization . Terraform holds 62% of the IaC market . Ansible is the most widely adopted configuration management tool . **These are genuine alternatives to commercial platforms.**
-
-- **Provisioning vs. configuration management are different problems.** Terraform and CloudFormation provision infrastructure (VMs, networking, databases). Ansible, Chef, Puppet, and SaltStack configure software inside those instances (packages, config files, services) . **The recommended pattern is combining both**: Terraform to provision, Ansible to configure .
-
-- **The cloud-init + Ansible hybrid is the production standard.** Use cloud-init minimally for system initialization (users, SSH keys, network, Docker installation, security) and Ansible for application-level configuration, service deployment, and operational procedures . **This separation improves testability, maintainability, and CI/CD compatibility** .
-
-- **Terraform's license change matters.** HashiCorp moved Terraform to BSL 1.1 in 2023. **OpenTofu is the open-source fork under Linux Foundation governance**—12% of practitioners currently use it and 27% plan to use it .
-
-- Self-hosted open-source solutions require proper state management, secret handling, and ongoing maintenance. **Infrastructure provisioning is security-critical**—state files contain secrets and must be encrypted and access-controlled.
-
-
+26. **[coreos-installer](https://github.com/coreos/coreos-installer)** [![Stars](https://img.shields.io/github/stars/coreos/coreos-installer?style=social&color=white)](https://github.com/coreos/coreos-installer/stargazers)  
+    **Installer utility for Fedora CoreOS and RHEL CoreOS** (Apache-2.0). Installs container operating systems directly to bare metal or cloud block devices while embedding Ignition configurations.
 
 ---
 
+## 🏗️ Recommended Architecture Patterns
 
+For production-grade, highly reliable, and reproducible cloud instance provisioning:
 
-**Made for platform engineers, DevOps teams, and organizations building transparent provisioning solutions.**  
+```
+[ Packer ] ──> Builds Immutable Golden Images (AMIs, VHDs)
+     │
+     ▼
+[ OpenTofu / Terraform / Pulumi ] ──> Provisions Cloud VMs, Networks, Storage & Security Groups
+     │
+     ▼
+[ cloud-init / Ignition ] ──> Performs First-Boot Initialization (Hostnames, SSH Keys, Disks)
+     │
+     ▼
+[ Ansible / SaltStack ] ──> Orchestrates Application Deployment & Continuous Configuration
+```
 
-Let's make Cloud Instance Provisioning more open, data-driven, and reproducible.
+- **Provisioning vs. Configuration Management**: Use declarative IaC tools (OpenTofu, Terraform, Pulumi, CloudFormation) to allocate cloud fabric primitives (VPCs, EC2/Compute instances, firewall rules). Use configuration tools (Ansible, SaltStack) to manage in-guest runtimes and services.
+- **The cloud-init + Ansible Synergy**: Rely on cloud-init strictly for the minimal first-boot handoff (users, keys, base dependencies) and trigger Ansible playbooks for higher-level application deployment.
+- **Immutable Infrastructure**: Bake standard dependencies into base images with **Packer** to reduce boot times from minutes to seconds and prevent configuration drift.
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Cloud-Instance-Provisioning&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Cloud-Instance-Provisioning&type=date&legend=top-left)
+
+---
+
+## 💖 Support & Sponsorship
+
+If you find this curated landscape useful for your DevOps workflows, platform engineering initiatives, or cloud infrastructure architectures:
+
+- ⭐ **Star this repository** to support discoverability on GitHub!
+- 🍴 **Fork the repository** to contribute your favorite open-source tools or platform updates.
+- 📢 **Share with your team** or community across Discord, Reddit, and LinkedIn.
+- ☕ **Buy a coffee & sponsor ongoing maintenance:**  
+  [![GitHub Sponsors](https://img.shields.io/badge/Sponsor%20on%20GitHub%20Sponsors-%23EA4AAA?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sponsors/ishandutta2007)
+
+Your support directly funds research, regular verification of pricing/limits, and updates across the cloud-native ecosystem. Thank you! 🙏
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are warmly welcomed! To add or update an entry:
+
+1. 🍴 **Fork this repository**.
+2. 📝 **Edit `README.md`** following the existing layout and criteria:
+   - For SaaS: Name, vendor, starting price, free tier limit, company valuation/revenue, and description.
+   - For Open-Source: Name, link, stargazers badge (`style=social&color=white`), license, and practical use case.
+3. 🚀 **Submit a Pull Request** with a clear explanation of why the tool belongs in the list.
+
+---
+
+## ⚠️ Disclaimer
+
+- This is an **independent, community-curated list** — not an official endorsement of any commercial platform or open-source tool.
+- Cloud instance provisioning tools manage sensitive infrastructure credentials (cloud IAM keys, SSH private keys). Always adhere to security best practices, least-privilege IAM policies, and encrypted state storage.
+- Pricing, free tier allowances, and open-source star metrics are verified periodically and subject to change by respective upstream maintainers.
+
+---
+
+<div align="center">
+  <sub>Built with ❤️ for platform engineers, SREs, and DevOps practitioners worldwide.</sub>
+</div>
+
