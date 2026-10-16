@@ -56,7 +56,7 @@ The global Infrastructure as Code (IaC) and cloud instance provisioning market i
 
 ## 🛠️ Open-Source GitHub Projects
 
-Curated list of leading open-source repositories for cloud instance bootstrapping, infrastructure automation, hypervisors, and configuration management. Sorted in **descending order by GitHub star count**.
+Curated list of leading open-source repositories for cloud instance bootstrapping, infrastructure automation, hypervisors, and configuration management. Sorted in **descending order by GitHub Stars_Count**.
 
 1. **[Ansible](https://github.com/ansible/ansible)** [![Stars](https://img.shields.io/github/stars/ansible/ansible?style=social&color=white)](https://github.com/ansible/ansible/stargazers)  
    **The most widely adopted open-source configuration management and automation platform** (GPL-3.0). Features an agentless architecture over SSH and WinRM. Ideal for post-boot software deployment, orchestration, role-based workflows, and application lifecycle automation.
