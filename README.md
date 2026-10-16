@@ -30,53 +30,26 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
 
+The global Infrastructure as Code (IaC) and cloud instance provisioning market is estimated at **$1.3B–$1.6B in 2025–2026** (scaling past **$6B+ by the early 2030s** at a ~20–25% CAGR), or upwards of **$39B+** when encompassing adjacent cloud automation and provisioning frameworks. The sector remains **moderately fragmented**—while hyperscaler-native tools dominate single-cloud footprints, multi-cloud enterprise mandates and ecosystem shifts (such as HashiCorp's BSL licensing change and the emergence of OpenTofu) have spurred healthy competition across independent orchestration, drift detection, and multi-IaC platforms rather than a single winner-take-all monopoly.
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[Terraform Cloud (HCP Terraform)](https://www.hashicorp.com/products/terraform)**  
-
-  Managed IaC platform with workspaces, VCS integration, Sentinel/OPA policy as code, private module registry, and config-driven import. **Note**: Resource-based pricing counts every resource in state—teams often find actual count is 3-4x assumed.
-
-
-
-- **[AWS CloudFormation](https://aws.amazon.com/cloudformation/)**  
-
-  **AWS-native IaC service** for declaring resources in JSON/YAML templates. Features **stacks, change sets, StackSets** for multi-account/multi-region provisioning, and **IaC Generator** to create templates from existing resources. **The safest choice for AWS-only governance**—tight IAM/Config/CloudTrail integration, automatic state management, and rollbacks .
-
-
-
-- **[Azure Bicep](https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/)**  
-
-  **Azure-native IaC language** providing a cleaner syntax over ARM templates with deep Azure integration.
-
-
-
-- **[Pulumi Cloud](https://www.pulumi.com/)**  
-
-  **Cloud-agnostic IaC** using general-purpose programming languages (TypeScript, Python, Go) with managed state and secrets.
-
-
-
-- **[Spacelift](https://spacelift.io/)**  
-
-  Multi-IaC orchestration supporting Terraform, OpenTofu, Ansible, Kubernetes, Terragrunt, CloudFormation, and Pulumi. Features policy as code (OPA), stack dependencies, drift detection, and AI assistant with MCP server.
-
-
-
-- **[env0](https://www.envzero.com/)**  
-
-  IaC automation platform with flat monthly pricing (not per-resource). Supports Terraform, Terragrunt, and OpenTofu.
+| Platform | Company Valuation / Revenue (Size) | Starting Price (Paid) | Free Tier / Trial Limits | Description |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Azure Bicep](https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/)** (Microsoft) | **~$3.8T–$4.0T Market Cap** ($318.3B TTM Revenue) | **$0** (Free core tooling; underlying Azure compute/storage billed at standard pay-as-you-go rates) | **Forever Free** (100% free & open-source CLI, compiler, and language with no usage caps; underlying resources eligible for Azure Free Account: $200 credit for 30 days + 55+ always-free services) | Azure-native IaC language offering clean syntax, modular templates, and first-class integration with Azure Resource Manager (ARM). |
+| **[AWS CloudFormation](https://aws.amazon.com/cloudformation/)** (Amazon AWS) | **~$2.7T–$2.8T Market Cap** ($638B–$742B TTM Revenue) | **$0** (Free for native `AWS::*` templates; custom extensions charge $0.0009 per handler operation beyond free tier) | **Forever Free** for all native `AWS::*` resource provisioning; Registry extensions include **1,000 handler operations/month** free per account; underlying AWS resources apply to standard AWS 12-month / always-free tier limits | AWS-native declarative IaC service featuring stacks, Change Sets, StackSets for multi-region/multi-account rollout, and IaC Generator. |
+| **[Terraform Cloud (HCP Terraform)](https://www.hashicorp.com/products/terraform)** (HashiCorp / IBM) | **$6.4B Valuation** (Acquired by IBM; $583M annual revenue) | **$0.10 / resource / month** (Essentials tier; Standard starts at $0.47 / resource / month) | **Forever Free up to 500 managed resources**, unlimited users, 1 concurrent run, private module registry, and VCS-driven workflows | Managed IaC platform offering remote execution, private module registry, drift detection, and OPA/Sentinel policy as code. |
+| **[Pulumi Cloud](https://www.pulumi.com/)** (Pulumi) | **~$100M–$400M Valuation** ($99M funding; ~$17M–$20M ARR) | **$40 / month** (Essentials tier with 40 credits; Pro starts at $400 / month with 400 credits) | **Forever Free for 1 user** with **unlimited resources**, unlimited projects/stacks, and 500 Deployments minutes/month | General-purpose programming language IaC (TypeScript, Python, Go) with managed state, secrets management (ESC), and CI/CD automation. |
+| **[Spacelift](https://spacelift.io/)** (Spacelift) | **~$73.6M Total Funding** (~$15M–$20M ARR) | **$20,000 / year** (~$1,667 / month for Starter+ tier with 1 private worker and unlimited users) | **Forever Free for up to 2 users**, 1 concurrent run (public worker), unlimited stacks, and full IaC support (Terraform, OpenTofu, Pulumi, CloudFormation, Ansible); also offers a **14-day free trial** of paid tiers (no credit card required) | Sophisticated multi-IaC orchestration platform featuring OPA policy-as-code, stack dependencies, drift detection, and AI assistant. |
+| **[env0](https://www.envzero.com/)** (env0) | **~$42M Total Funding** (~$6M–$9M ARR) | **~$1,500 / month** ($18,000 / year base for Cloud Navigator on AWS Marketplace; custom quotes per active env / apply) | **Forever Free up to 250 runs/month**, up to **30 active environments**, unlimited users, 1 concurrent deployment, and 1 self-hosted agent | Collaborative IaC automation and management platform supporting Terraform, Terragrunt, OpenTofu, and Pulumi with built-in cloud cost tracking. |
 
 
 
